@@ -2,9 +2,10 @@ import React from "react";
 import Cryptocurrency from "../assets/portfolio/cryptoDashboard.jpg";
 import blog from "../assets/portfolio/blog-app.png";
 import quiz from "../assets/portfolio/Quiz-App.png";
-import Ecommerce from "../assets/portfolio/e-commerce.png";
+import Ecommerce from "../assets/portfolio/e-commerce1.png";
 import youtubesubs from "../assets/portfolio/youtube-subs.png";
 import workout from "../assets/portfolio/workout-baddy.png";
+import Portfolio1 from "../assets/portfolio/portfolio1.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -27,14 +28,22 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      src: Portfolio1,
+      heading:"My Portfolio",
+      demoLink:"https://javed-portfolio.netlify.app/",
+      githubLink:"https://github.com/Javedansari1993/portfolio",
+      about:"This E-commerce App using Reactjs you can add and remove your product where you can see all product added with total price in your Card.",
+    },
+    {
+      id: 4,
       src: quiz,
       heading:"Quiz App",
       demoLink:"https://javed-qiuz-app.netlify.app/",
       githubLink:"https://github.com/Javedansari1993/Quiz_app",
-      about:"This Quiz-App using Reactjs you can play quiz and having a functionality such as reset quiz,save and next, and exit from the quiz,at the end display final score on screen"
+      about:"This project is my own portfolio website which ReactJS, React icons, React scroll and tailwind "
     },
     {
-      id: 4,
+      id: 5,
       src: youtubesubs,
       heading:"Get Youtube-Subscriber",
       demoLink:"https://drive.google.com/file/d/1jYGspRzzJojKfMVnDZwXkXyykVc73r2b/view?usp=sharing",
@@ -42,7 +51,7 @@ const Portfolio = () => {
       about:"This project using NodeJS, Express, MongoDB Atlas database, Mongoose and dotenv for setting Environment varialbles."
     },
     {
-      id: 5,
+      id: 6,
       src: blog,
       heading:"Blog-App",
       demoLink:"https://github.com/Javedansari1993/Express-blog-A",
@@ -50,7 +59,7 @@ const Portfolio = () => {
       about:"This project using NodeJS, Express, MongoDB Atlas database, Mongoose and you can create a custome blog where you can see all blog.",
     },
     {
-      id: 6,
+      id: 7,
       src: workout,
       heading:"Workout-buddy-app",
       demoLink:"https://github.com/Javedansari1993/Mern-stack-Workout-buddy",
