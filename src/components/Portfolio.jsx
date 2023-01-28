@@ -32,7 +32,7 @@ const Portfolio = () => {
       heading:"My Portfolio",
       demoLink:"https://javed-portfolio.netlify.app/",
       githubLink:"https://github.com/Javedansari1993/portfolio",
-      about:"This project is my own portfolio website which ReactJS, React icons, React scroll and tailwin"
+      about:"This project is my own portfolio website which i have used ReactJS, React icons, React scroll and tailwin. here you can see about my profile"
     },
     {
       id: 4,
