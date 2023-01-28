@@ -1,16 +1,16 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/cryptoDashboard.jpg";
-import installNode from "../assets/portfolio/blog-app.png";
-import navbar from "../assets/portfolio/Quiz-App.png";
-import reactParallax from "../assets/portfolio/e-commerce.png";
-import reactSmooth from "../assets/portfolio/youtube-subs.png";
-import reactWeather from "../assets/portfolio/workout-baddy.png";
+import Cryptocurrency from "../assets/portfolio/cryptoDashboard.jpg";
+import blog from "../assets/portfolio/blog-app.png";
+import quiz from "../assets/portfolio/Quiz-App.png";
+import Ecommerce from "../assets/portfolio/e-commerce.png";
+import youtubesubs from "../assets/portfolio/youtube-subs.png";
+import workout from "../assets/portfolio/workout-baddy.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: Cryptocurrency,
       heading:"Cryptocurrency Dashboard",
       demoLink:"https://javed-crypto-dashboard.netlify.app/",
       githubLink:"https://github.com/Javedansari1993/Crypto-dashboard",
@@ -19,7 +19,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: reactParallax,
+      src: Ecommerce,
       heading:"E-commerce App",
       demoLink:"https://javed-ecommerce.netlify.app/",
       githubLink:"https://github.com/Javedansari1993/e-commarce",
@@ -27,7 +27,7 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: navbar,
+      src: quiz,
       heading:"Quiz App",
       demoLink:"https://javed-qiuz-app.netlify.app/",
       githubLink:"https://github.com/Javedansari1993/Quiz_app",
@@ -35,7 +35,7 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: youtubesubs,
       heading:"Get Youtube-Subscriber",
       demoLink:"https://drive.google.com/file/d/1jYGspRzzJojKfMVnDZwXkXyykVc73r2b/view?usp=sharing",
       githubLink:"https://github.com/Javedansari1993/Youtube-Subscriber",
@@ -43,7 +43,7 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      src: installNode,
+      src: blog,
       heading:"Blog-App",
       demoLink:"https://github.com/Javedansari1993/Express-blog-A",
       githubLink:"https://github.com/Javedansari1993/Express-blog-A",
@@ -51,7 +51,7 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: reactWeather,
+      src: workout,
       heading:"Workout-buddy-app",
       demoLink:"https://github.com/Javedansari1993/Mern-stack-Workout-buddy",
       githubLink:"https://github.com/Javedansari1993/Mern-stack-Workout-buddy",
