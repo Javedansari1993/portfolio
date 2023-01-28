@@ -32,7 +32,7 @@ const Portfolio = () => {
       heading:"My Portfolio",
       demoLink:"https://javed-portfolio.netlify.app/",
       githubLink:"https://github.com/Javedansari1993/portfolio",
-      about:"This E-commerce App using Reactjs you can add and remove your product where you can see all product added with total price in your Card.",
+      about:"This project is my own portfolio website which ReactJS, React icons, React scroll and tailwin"
     },
     {
       id: 4,
@@ -40,7 +40,7 @@ const Portfolio = () => {
       heading:"Quiz App",
       demoLink:"https://javed-qiuz-app.netlify.app/",
       githubLink:"https://github.com/Javedansari1993/Quiz_app",
-      about:"This project is my own portfolio website which ReactJS, React icons, React scroll and tailwind "
+      about:"This Quiz-App using Reactjs you can play quiz and having a functionality such as reset quiz,save and next, and exit from the quiz,at the end display final score on screen"
     },
     {
       id: 5,
