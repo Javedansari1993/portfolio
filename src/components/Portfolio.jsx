@@ -1,11 +1,12 @@
 import React from "react";
 import Cryptocurrency from "../assets/portfolio/cryptoDashboard.jpg";
-import blog from "../assets/portfolio/blog-app.png";
+// import blog from "../assets/portfolio/blog-app.png";
 import quiz from "../assets/portfolio/Quiz-App.png";
 import Ecommerce from "../assets/portfolio/e-commerce1.png";
 import youtubesubs from "../assets/portfolio/youtube-subs.png";
-import workout from "../assets/portfolio/workout-baddy.png";
+// import workout from "../assets/portfolio/workout-baddy.png";
 import Portfolio1 from "../assets/portfolio/portfolio1.png";
+import redbusBookingApp from "../assets/portfolio/redbus.png";
 
 const Portfolio = () => {
   const portfolios = [
@@ -36,14 +37,6 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: quiz,
-      heading:"Quiz App",
-      demoLink:"https://javed-qiuz-app.netlify.app/",
-      githubLink:"https://github.com/Javedansari1993/Quiz_app",
-      about:"This Quiz-App using Reactjs you can play quiz and having a functionality such as reset quiz,save and next, and exit from the quiz,at the end display final score on screen"
-    },
-    {
-      id: 5,
       src: youtubesubs,
       heading:"Get Youtube-Subscriber",
       demoLink:"https://drive.google.com/file/d/1jYGspRzzJojKfMVnDZwXkXyykVc73r2b/view?usp=sharing",
@@ -51,20 +44,20 @@ const Portfolio = () => {
       about:"This project using NodeJS, Express, MongoDB Atlas database, Mongoose and dotenv for setting Environment varialbles."
     },
     {
-      id: 6,
-      src: blog,
-      heading:"Blog-App",
-      demoLink:"https://github.com/Javedansari1993/Express-blog-A",
-      githubLink:"https://github.com/Javedansari1993/Express-blog-A",
-      about:"This project using NodeJS, Express, MongoDB Atlas database, Mongoose and you can create a custome blog where you can see all blog.",
+      id: 5,
+      src: redbusBookingApp,
+      heading:"Redbus Booking App",
+      demoLink:"https://github.com/Javedansari1993/Redbus_Booking_App",
+      githubLink:"https://github.com/Javedansari1993/Redbus_Booking_App",
+      about:"This project uses react, redux, bootstrap, NodeJS, Express, MongoDB Atlas database and  Mongoose and users can search the bus and book the tickets",
     },
     {
-      id: 7,
-      src: workout,
-      heading:"Workout-buddy-app",
-      demoLink:"https://github.com/Javedansari1993/Mern-stack-Workout-buddy",
-      githubLink:"https://github.com/Javedansari1993/Mern-stack-Workout-buddy",
-      about:"This project using Reactjs for fort-End and for Back-End using NodeJS, Express, Mongoose and users can access all workouts."
+      id: 6,
+      src: quiz,
+      heading:"Quiz App",
+      demoLink:"https://javed-qiuz-app.netlify.app/",
+      githubLink:"https://github.com/Javedansari1993/Quiz_app",
+      about:"This Quiz-App using Reactjs you can play quiz and having a functionality such as reset quiz,save and next, and exit from the quiz,at the end display final score on screen"
     },
   ];
 
