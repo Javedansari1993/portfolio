@@ -9,20 +9,23 @@ import expresjs from "../assets/express.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
 import mongodb from "../assets/mongodb.png";
+import nextjs from "../assets/nextjs.png";
+import sql from "../assets/sql.png";
+import materialUI from "../assets/materialUI.png";
 
 const Experience = () => {
   const techs = [
     {
       id: 1,
-      src: html,
-      title: "HTML",
+      src: nextjs,
+      title: "Next.js",
       style: "shadow-orange-500",
     },
     {
       id: 2,
-      src: css,
-      title: "CSS",
-      style: "shadow-blue-500",
+      src: reactImage,
+      title: "React",
+      style: "shadow-blue-600",
     },
     {
       id: 3,
@@ -31,10 +34,28 @@ const Experience = () => {
       style: "shadow-yellow-500",
     },
     {
-      id: 4,
-      src: reactImage,
-      title: "React",
-      style: "shadow-blue-600",
+      id: 10,
+      src: sql,
+      title: "SQL",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 12,
+      src: css,
+      title: "CSS",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 1,
+      src: html,
+      title: "HTML",
+      style: "shadow-orange-500",
+    },
+    {
+      id: 2,
+      src: materialUI,
+      title: "MaterialUI",
+      style: "shadow-blue-500",
     },
     {
       id: 5,
@@ -71,8 +92,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-fit"
-    >
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-fit">
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
@@ -85,8 +105,7 @@ const Experience = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
-            >
+              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
               <img src={src} alt="" className="w-20 mx-auto" />
               <p className="mt-4">{title}</p>
             </div>
